@@ -6,15 +6,28 @@
         .group-icon {
             display: flex;
             width: 10%;
+
         }
-
-
-
 
         li {
 
             list-style: none;
             padding-inline-start: 20px;
+        }
+
+        footer {
+            bottom: 0px;
+            position: absolute;
+            height: 10rem;
+            float: right;
+            width: 100%;
+        }
+
+        .parent-footer {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 70px;
+
         }
     </style>
 </head>
@@ -31,7 +44,7 @@
 
 
     <footer class="bg-dark text-center text-lg-start p-5 d-flex ">
-        <div>
+        <div class="parent-footer">
             <ul class="SUCknL FgSyBI group-icon" data-hook="social-bar__wrapper">
                 <li><a class="ACLKzf" href="https://www.facebook.com/wix" target="_blank" aria-label="facebook"
                         title="Facebook" data-hook="social-bar__socialLink socialLink--id_facebook"><svg
@@ -94,11 +107,12 @@
 
 
             </ul>
+            <div> &nbsp;
+                <h5 class="text-center p-3 text-white">
+                    ⓒ 2025 Copyright:
+                    <a>H.solution</a>
+                </h5>
+            </div>
         </div>
-        <div>
-            <h5 class="text-center p-3 text-white">
-                ⓒ 2025 Copyright:
-                <a>H.solution</a>
-            </h5>
-        </div>
+
     </footer>
