@@ -12,7 +12,21 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+<STYLE>
+    .team-member {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
 
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06) !important;
+}
+
+.team-member:active {
+    transform: scale(0.98);
+}
+</STYLE>
 
 
 
@@ -82,7 +96,7 @@
         </div>
         <div class="carousel-inner h-100">
             <div class="carousel-item active h-100">
-                <div class="row g-0 h-100">
+                <div class="row g-0 h-100 flex-column-reverse flex-md-row">
                     <div class="col-8 h-100">
                         <img src="c-001.png" class="d-block w-100 h-100 object-fit-cover">
                     </div>
@@ -143,10 +157,10 @@
             <h7 class="display-6 fw-bold"><i class="fa-regular fa-face-smile me-3"></i>우리 팀 소개</h7>
             <p class="lead text-muted">각 분야 전문가들이 모여 최고의 컨설팅 서비스를 제공합니다</p>
         </div>
-
+    
         <div class="row g-4">
             <div class="col-md-3">
-                <div class="card team-member h-100 text-center">
+                <div class="card team-member h-100 text-center" onclick="href='#'">
                     <div class="card-body shadow p-3 bg-body-tertiary rounded">
                         <div class="mb-3 mt-3">
                             <img src="001.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
@@ -157,7 +171,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card team-member h-100 text-center">
+                <div class="card team-member h-100 text-center" onclick="href='#'">
                     <div class="card-body shadow p-3 bg-body-tertiary rounded">
                         <div class="mb-4 mt-3">
                             <img src="002.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
@@ -168,18 +182,18 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card team-member h-100 text-center">
+                <div class="card team-member h-100 text-center" onclick="href='#'">
                     <div class="card-body shadow p-3 bg-body-tertiary rounded">
                         <div class="mb-3 mt-3">
                             <img src="003.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
                         </div>
                         <h5 class="card-title mb-4">제휴 관리 책임자</h5>
-                        <p class="small">다양한 관과의 긴밀한 협력으로 최상의<br> 솔루션을 제공합니다.</p>
+                        <p class="small">기관과의 긴밀한 협력으로 최상의<br> 솔루션을 제공합니다.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card team-member h-100 text-center">
+                <div class="card team-member h-100 text-center" onclick="href='#'">
                     <div class="card-body shadow p-3 bg-body-tertiary rounded">
                         <div class="mb-3 mt-3">
                             <img src="004.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
@@ -191,7 +205,6 @@
             </div>
         </div>
     </div>
-
 
 
 
@@ -217,6 +230,7 @@
                         <h5 class="card-title mb-4">안전한 개인정보 보호</h5>
                         <p class="small">민감한 개인정보를 최신 암호화 기술이 적용된<br>시스템으로 안전하게 저장합니다.
                         </p>
+                        <a href="#" class="btn btn-primary">더보기</a>
                     </div>
                 </div>
             </div>
@@ -229,6 +243,7 @@
                         </div>
                         <h5 class="card-title mb-4">실시간 분석</h5>
                         <p class="small">기관별 실시간 정보를 분석하여 데이터에 기반한<br>의사 결정을 내립니다.</p>
+                        <a href="#" class="btn btn-primary">더보기</a>
                     </div>
                 </div>
             </div>
@@ -236,12 +251,13 @@
                 <div class="card team-ablity border border-0 h-100 text-center">
                     <div class="card-body">
                         <div class="mb-3">
-                            <img src="003.png" alt="간편한 사용" class="img-fluid rounded-circle mb-3"
+                            <img src="click.png" alt="간편한 사용" class="img-fluid rounded-circle mb-3"
                                 style="max-width: 160px;">
                         </div>
                         <h5 class="card-title mb-4">간편한 사용</h5>
                         <p class="small">사용자 편의를 최적화하여 누구나 간편하게<br>
                             사용할 수 있습니다.</p>
+                             <a href="#" class="btn btn-primary">더보기</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Solution 컨설팅 서비스</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+
+        .card-hover {
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06) !important;
+        }
+
+        .card-hover:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="logo.png" alt="Logo" width="100" height="50" class="d-inline-block me-2">
+                    <span class="fw-bold text-white">H.solution</span>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-font-awesome me-2"></i>회사소개</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-check me-2"></i>인증 컨설팅</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-coins me-2"></i>금융 컨설팅</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-link me-2"></i>제휴 컨설팅</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light"><i class="fa-solid fa-user"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 캐러셀 -->
+    <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="main1.png" class="d-block w-100" alt="첫 번째 슬라이드">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                    <h2>최고의 전문가와 함께</h2>
+                    <p>비즈니스 성공을 위한 맞춤형 컨설팅 솔루션</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="main2.png" class="d-block w-100" alt="두 번째 슬라이드">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                    <h2>혁신적인 기술 시스템</h2>
+                    <p>정확하고 신뢰할 수 있는 데이터 분석</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">이전</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">다음</span>
+        </button>
+    </div>
+
+    <!-- 서비스 섹션 -->
+    <div class="container py-5">
+        <h2 class="text-center mb-5 border-bottom pb-3">우리의 서비스</h2>
+        <div class="row g-4">
+            <!-- 회사소개 카드 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="slide1-1.png" class="card-img-top" alt="회사소개">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-building text-primary me-2"></i>회사소개
+                        </h5>
+                        <p class="card-text text-muted">
+                            H-Solution은 인증컨설팅, 금융컨설팅, 제휴컨설팅 업무를 지원하여, 
+                            기업의 성공을 위한 최적의 솔루션을 제공합니다.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">
+                            <i class="fas fa-info-circle me-2"></i>더 알아보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 인증 컨설팅 카드 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="slide1-2.png" class="card-img-top" alt="인증 컨설팅">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-certificate text-primary me-2"></i>인증 컨설팅
+                        </h5>
+                        <p class="card-text text-muted">
+                            기업의 우수한 활동과 기술력을 전문적으로 평가하고 인증하는 맞춤형 컨설팅 서비스입니다.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">
+                            <i class="fas fa-check-circle me-2"></i>서비스 확인
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 금융 컨설팅 카드 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="slide1-3.png" class="card-img-top" alt="금융 컨설팅">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-coins text-primary me-2"></i>금융 컨설팅
+                        </h5>
+                        <p class="card-text text-muted">
+                            기업의 재무 전략, 자본 시장 분석, 투자 방향 등을 종합적으로 검토하여 기업 가치를 극대화합니다.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">
+                            <i class="fas fa-chart-line me-2"></i>서비스 확인
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 제휴 컨설팅 카드 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="slide1-4.png" class="card-img-top" alt="제휴 컨설팅">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-handshake text-primary me-2"></i>제휴 컨설팅
+                        </h5>
+                        <p class="card-text text-muted">
+                            기업 간 전략적 제휴, 사업 확장, 신규 시장 개척을 위한 종합적이고 혁신적인 컨설팅을 제공합니다.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">
+                            <i class="fas fa-link me-2"></i>서비스 확인
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2025 H-Solution. All Rights Reserved.</p>
+            <div class="mt-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+   
+</body>
+</html>
