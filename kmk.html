@@ -1,8 +1,148 @@
-<div class="card text-bg-dark">
-    <img src="..." class="card-img" alt="...">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+
+        <div class="container-fluid">
+            <div class="d-flex align-items-center gap-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="Logo" width="100" height="50"
+                        class="d-inline-block align-text-top"></a>
+                <a class="navbar-brand" href="index.html">
+                    <span class="fw-bold text-white" style="font-size: 1.5rem;">H.solution</span></a>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav pe-4" style="font-size: 0.9rem">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="yeong.html"><i
+                                class="fa-solid fa-font-awesome pe-2"></i></i>회사소개</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="kim-jungeun-1.html"><i class="fa-solid fa-circle-check pe-2"></i>인증 컨설팅</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="kmk.html"><i class="fa-solid fa-coins pe-2"></i>금융 컨설팅</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyunji.html"><i class="fa-solid fa-link pe-2"></i>제휴 컨설팅</a>
+                    </li>
+
+                </ul>
+                <div class="pe-3">
+                    <button class="btn btn-outline-light ps-4 pe-4" type="button"><i
+                            class="fa-solid fa-user"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+
+
+
+
+
+<div class="parent-carousel d-flex pt-5">
+
+    <div class="col-1"></div>
+    <div id="carouselExample" class="carousel slide col-10">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="k/금융5.jpg" class="d-block w-100" alt="p1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="k/금융10.jpg" class="d-block w-100" alt="p2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="k/금융8.jpg" class="d-block w-100" alt="p4.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="k/금융6.jpg" class="d-block w-100" alt="p4.jpg">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+</div>
+<div class="row ps-3 pe-3 pt-5">
+    <div class="col-lg-4">
+        <div class="card" style="width: 100%;">
+            <img src="k/은행.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">BANK(은행)</h5>
+                <p class="card-text">자금의 중개 기능을 수행하는 금융기관으로, 대출자에게 자금을 공급함으로써 금융시장의 핵심 역할을 합니다. 이는 자금의
+                    효율적 흐름을 도와 경제 전반의 안정성과 성장에 기여하는 매우 중요한 제도적 장치입니다.</p>
+                <a href="https://naver.com" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card" style="width:100%;">
+            <img src="k/증권사.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Securities Company(증권사)</h5>
+                <p class="card-text">증권사는 금융투자업을 전문으로 수행하는 기관으로, 주식, 채권, 펀드 등 다양한 금융투자 상품에 운용 및 중개하는 역할을 합니다.
+                    자본시장과 투자자 사이에서 정보, 자금, 투자기회를 연결하는 핵심 중개기관입니다.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card" style="width:100%">
+            <img src="k/공공기관.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Public Institution(공공기관)</h5>
+                <p class="card-text">공공기관은 공공서비스 제공과 국가 정책의 실현을 목적으로 설립된 조직으로,
+                    공공성과 효율성의 균형을 유지하며 기업의 발전 향상과 국가 발전에 기여합니다.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!-- 푸터 -->
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+      <p>&copy; 2025 H-Solution. All Rights Reserved.</p>
+      <div class="mt-3">
+          <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+      </div>
   </div>
+</footer>
+
+</body>
+</html>
