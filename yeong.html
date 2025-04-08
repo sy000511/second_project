@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <!--내비게이션-->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+
+            <div class="container-fluid">
+                <div class="d-flex align-items-center gap-0">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="logo.png" alt="Logo" width="100" height="50"
+                            class="d-inline-block align-text-top"></a>
+                    <a class="navbar-brand" href="index.html">
+                        <span class="fw-bold text-white" style="font-size: 1.5rem;">H.solution</span></a>
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav pe-4" style="font-size: 0.9rem">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-font-awesome pe-2"></i></i>회사소개</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-circle-check pe-2"></i>인증 컨설팅</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-coins pe-2"></i>금융 컨설팅</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-link pe-2"></i>제휴 컨설팅</a>
+                        </li>
+
+                    </ul>
+                    <div class="pe-3">
+                        <button class="btn btn-outline-light ps-4 pe-4" type="button"><i
+                                class="fa-solid fa-user"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--캐러셀-->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-5" style="height: 600px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+                <div class="row g-0 h-100">
+                    <div class="col-8 h-100">
+                        <img src="c-001.png" class="d-block w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-4 h-100 d-flex align-items-center bg-light">
+                        <div class="p-4">
+                            <h5 class="mb-3">안전한 개인정보 보호</h5>
+                            <p>최신 암호화 기술이 적용된 안전한 시스템</p>
+                            <a href="#team" class="btn btn-secondary">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <div class="row g-0 h-100">
+                    <div class="col-8 h-100">
+                        <img src="c-002.png" class="d-block w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-4 h-100 d-flex align-items-center bg-light">
+                        <div class="p-4">
+                            <h5 class="mb-3">실시간 분석</h5>
+                            <p>데이터에 기반한 정확한 진단</p>
+                            <a href="#team" class="btn btn-secondary">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <div class="row g-0 h-100">
+                    <div class="col-8 h-100">
+                        <img src="c-003.png" class="d-block w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-4 h-100 d-flex align-items-center bg-light">
+                        <div class="p-4">
+                            <h5 class="mb-3">간편한 사용</h5>
+                            <p>누구나 쉽게 사용 사용한 시스템</p>
+                            <a href="#team" class="btn btn-secondary">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!--팀 소개-->
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h7 class="display-6 fw-bold"><i class="fa-regular fa-face-smile me-3"></i>우리 팀 소개</h7>
+            <p class="lead text-muted">각 분야 전문가들이 모여 최고의 컨설팅 서비스를 제공합니다</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card team-member h-100 text-center">
+                    <div class="card-body shadow p-3 bg-body-tertiary rounded">
+                        <div class="mb-3 mt-3">
+                            <img src="001.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">인증 컨설턴트</h5>
+                        <p class="small">10년 이상 경력으로 비즈니스 전략을<br>최적화합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-member h-100 text-center">
+                    <div class="card-body shadow p-3 bg-body-tertiary rounded">
+                        <div class="mb-4 mt-3">
+                            <img src="002.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">금융 컨설턴트</h5>
+                        <p class="small">20년 이상 경력으로 최고의 금융 전략을<br> 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-member h-100 text-center">
+                    <div class="card-body shadow p-3 bg-body-tertiary rounded">
+                        <div class="mb-3 mt-3">
+                            <img src="003.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">제휴 관리 책임자</h5>
+                        <p class="small">다양한 관과의 긴밀한 협력으로 최상의<br> 솔루션을 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-member h-100 text-center">
+                    <div class="card-body shadow p-3 bg-body-tertiary rounded">
+                        <div class="mb-3 mt-3">
+                            <img src="004.png" alt="팀원 사진" class="img-fluid mb-3" style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">시스템 개발자</h5>
+                        <p class="small">안정적이고 확장 가능한 금융 시스템<br> 아키텍처를 설계합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--역량-->
+
+    <div id="team" class="container py-5">
+        <div class="text-center mb-5">
+            <h7 class="display-6 fw-bold"><i class="fa-solid fa-rocket me-3"></i>우리 팀 역량</h7>
+            <p class="lead text-muted">우리 팀의 최신 기술과 전문 역량을 소개합니다.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card team-ablity border border-0 h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <img src="lock.png" alt="개인정보 보호" class="img-fluid rounded-circle mb-3"
+                                style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">안전한 개인정보 보호</h5>
+                        <p class="small">민감한 개인정보를 최신 암호화 기술이 적용된<br>시스템으로 안전하게 저장합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card team-ablity border border-0 h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <img src="graph.png" alt="실시간 분석" class="img-fluid rounded-circle mb-3"
+                                style="max-width: 165px;">
+                        </div>
+                        <h5 class="card-title mb-4">실시간 분석</h5>
+                        <p class="small">기관별 실시간 정보를 분석하여 데이터에 기반한<br>의사 결정을 내립니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card team-ablity border border-0 h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <img src="003.png" alt="간편한 사용" class="img-fluid rounded-circle mb-3"
+                                style="max-width: 160px;">
+                        </div>
+                        <h5 class="card-title mb-4">간편한 사용</h5>
+                        <p class="small">사용자 편의를 최적화하여 누구나 간편하게<br>
+                            사용할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
